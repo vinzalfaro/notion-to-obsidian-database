@@ -23,7 +23,7 @@ def rename_md_files(directory):
         os.rename(file_path, new_file_path)
 
 
-directory_path = 'Job Hunt/Job Applications'
+directory_path = '../database_files/renamed_files'
 
 rename_md_files(directory_path)
 print("Files renamed successfully.")

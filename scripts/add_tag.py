@@ -1,7 +1,7 @@
 import os
 
-input_directory = 'edited_files'
-output_directory = 'tagged_files'
+input_directory = '../database_files/edited_files'
+output_directory = '../database_files/tagged_files'
 tag_to_insert = 'tags: job_hunt'
 
 if not os.path.exists(output_directory):

@@ -60,7 +60,7 @@ def transform_lines(lines, filename):
 
 
 
-input_directory = "files"
-output_directory = "edited_files"
+input_directory = "../database_files/renamed_files"
+output_directory = "../database_files/edited_files"
 
 transform_md_files(input_directory, output_directory)
